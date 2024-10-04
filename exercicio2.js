@@ -1,0 +1,6 @@
+let frase = prompt ('Escreva uma frase:')
+let tudoMaiusculo = frase.toUpperCase()
+console.log(tudoMaiusculo)
+let substituindo = (frase.replaceAll ("O","I")).replaceAll ("o","i")
+console.log (substituindo)
+console.log ('O tamanho da frase é:', frase.lenght())
